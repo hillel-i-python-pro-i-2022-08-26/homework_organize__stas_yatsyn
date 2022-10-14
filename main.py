@@ -81,7 +81,7 @@ def get_formatted_output(data: dict) -> str:
 def main():
     """
     You have a list of humans. Every human have "name" and "group".
-    Your task is to show all groups, with amount and names of members of each group.
+    Your task is to show all groups, with amount and names of members  of each group.
     """
     group_members = DataProvider().generate_group_members()
     organized_data = organize_data(humans=group_members)
